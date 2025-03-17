@@ -173,6 +173,17 @@ body {
     color: #C5C7CD !important;
   }
   
+  .responsive-svg-container {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  
+  .responsive-svg-container svg {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
   
   @media (max-width: 768px) {
     #sidebar {
