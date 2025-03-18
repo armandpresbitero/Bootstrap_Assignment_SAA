@@ -16,7 +16,7 @@
 
 </head>
 
-<body>
+<body style="font-family: 'Mulish', sans-serif;">
   <div class="d-flex">
     <!-- Sidebar -->
     <nav id="sidebar" class="bg-dark text-light">
@@ -149,7 +149,7 @@
 
         <!-- Trends Chart -->
         <div class="card mb-4">
-          <div class="card-body">
+          <div class="card-body p-5">
             <div class="d-flex justify-content-between align-items-start mb-3">
               <div>
                 <h5 class="card-title">Today's trends</h5>
@@ -158,7 +158,7 @@
             </div>
             <div class="row">
               <!-- SVG Chart Column (Takes 8/12 of the width) -->
-              <div class="col-md-9 position-relative">
+              <div class="col-md-8 position-relative">
                 <div class="d-flex justify-content-end mb-2">
                   <svg width="173" height="16" viewBox="0 0 173 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1 8H17" stroke="#3751FF" stroke-width="2" stroke-linecap="round" />
@@ -356,35 +356,36 @@
               </div>
 
               <!-- New Column (Takes 4/12 of the width) -->
-              <div class="col-md-3 border-start">
-                <div class="p-3 border d-flex flex-column h-100">
+              <div class="col-md-4 border-start text-center">
+                <div class="border d-flex flex-column h-100">
                   <!-- First row -->
-                  <div class="mb-4 text-center d-flex flex-column justify-content-center border-bottom h-100">
+                  <div class="d-flex flex-column justify-content-center align-items-center border-bottom flex-grow-1">
                     <p class="text-muted mb-1">Resolved</p>
                     <h4>449</h4>
                   </div>
                   <!-- Second row -->
-                  <div class="mb-4 text-center d-flex flex-column justify-content-center border-bottom h-100">
+                  <div class="d-flex flex-column justify-content-center align-items-center border-bottom flex-grow-1">
                     <p class="text-muted mb-1">Received</p>
                     <h4>426</h4>
                   </div>
                   <!-- Third row -->
-                  <div class="mb-4 text-center d-flex flex-column justify-content-center border-bottom h-100">
+                  <div class="d-flex flex-column justify-content-center align-items-center border-bottom flex-grow-1">
                     <p class="text-muted mb-1">Average first response time</p>
                     <h4>33m</h4>
                   </div>
                   <!-- Fourth row -->
-                  <div class="mb-4 text-center d-flex flex-column justify-content-center border-bottom h-100">
+                  <div class="d-flex flex-column justify-content-center align-items-center border-bottom flex-grow-1">
                     <p class="text-muted mb-1">Average response time</p>
                     <h4>3h 8m</h4>
                   </div>
                   <!-- Fifth row -->
-                  <div class="text-center d-flex flex-column justify-content-center h-100">
+                  <div class="d-flex flex-column justify-content-center align-items-center flex-grow-1">
                     <p class="text-muted mb-1">Resolution within SLA</p>
                     <h4>94%</h4>
                   </div>
                 </div>
-              </div>              
+              </div>
+
 
             </div>
           </div>
@@ -394,7 +395,7 @@
       <!-- Unresolved Tickets & Tasks -->
       <div class="row">
         <div class="col-md-6">
-          <div class="card">
+          <div class="card p-4">
             <div class="card-body">
               <h5 class="card-title">Unresolved tickets</h5>
               <p class="card-subtitle mb-2 text-muted">Group: Support</p>
@@ -420,7 +421,7 @@
           </div>
         </div>
         <div class="col-md-6">
-          <div class="card">
+          <div class="card p-4">
             <div class="card-body">
               <h5 class="card-title">Tasks</h5>
               <p class="card-subtitle mb-2 text-muted">Today</p>

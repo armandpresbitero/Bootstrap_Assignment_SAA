@@ -2,8 +2,9 @@
 // <uniquifier>: Use a unique and descriptive class name
 
 
+
 body {
-    font-family: "Mulish", sans-serif;
+    font-family: "Mulish", sans-serif;"
     background-color: #F7F8FC;
   }
   
@@ -142,11 +143,18 @@ body {
     border-radius: 50%; /* Ensures the border and outline are circular */
 }
   
-  .list-group-item {
-    border: none;
-    padding: 20px 0;
-    border-bottom: 1px solid #DFE0EB;
+.list-group-item {
+  border: none;
+  padding: 20px 0; 
+  border-bottom: 1px solid #DFE0EB;
+  margin: 0 -40px; 
+  padding-left: 40px; 
+  padding-right: 30px; 
   }
+
+  .card-body {
+  overflow: hidden; 
+  }
   
   .list-group-item:last-child {
     border-bottom: none;
