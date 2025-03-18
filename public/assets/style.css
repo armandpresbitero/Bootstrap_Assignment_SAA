@@ -1,13 +1,13 @@
-// <weight>: Use a value from 200 to 1000
-// <uniquifier>: Use a unique and descriptive class name
+ /* <weight>: Use a value from 200 to 1000 */
+ /* <uniquifier>: Use a unique and descriptive class name */
 
 
 
 body {
-    font-family: "Mulish", sans-serif;"
+    font-family: "Mulish", sans-serif;
     background-color: #F7F8FC;
-  }
-  
+}
+
   #sidebar {
     min-width: 255px;
     max-width: 255px;
