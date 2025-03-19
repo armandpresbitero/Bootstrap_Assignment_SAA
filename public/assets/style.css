@@ -8,6 +8,12 @@ body {
     background-color: #F7F8FC;
 }
 
+.data{
+  font-size: 25px;
+  font-weight: 700;
+}
+
+
   #sidebar {
     min-width: 255px;
     max-width: 255px;
