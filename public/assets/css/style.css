@@ -66,6 +66,11 @@ body {
   font-weight: bold;
 }
 
+.text-icon-color,
+.text-icon-color i {
+  color: #C5C7CD !important;
+}
+
 .mb-0 {
   margin-bottom: 0 !important;
   font-size: 19px;
@@ -158,6 +163,9 @@ li span.text-create-task {
   }
   #sidebar.active {
     margin-left: 0;
+  }
+  .responsive-svg-container {
+    padding-right: 0 !important;
   }
 }
 
